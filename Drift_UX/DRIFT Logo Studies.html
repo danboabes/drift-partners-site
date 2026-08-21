@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DRIFT — Logo Studies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body { margin: 0; font-family: 'Source Serif 4', serif; background: #ece8df; color: #14110d; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script type="text/babel" src="design-canvas.jsx"></script>
+  <script type="text/babel" src="logo-marks.jsx"></script>
+
+  <script type="text/babel">
+    const M = window.LogoMarks;
+    const { BusinessCard, Letterhead, Favicon, MarkPlate } = window.LogoApplications;
+
+    function App() {
+      return (
+        <DesignCanvas title="DRIFT — Logo Studies" subtitle="Ten directions, four families. Pure geometry. Wordmark-led.">
+          <DCSection id="primary" title="Primary lockups">
+            <DCArtboard id="lockup-stack" label="01 — Stacked lockup (recommended primary)" width={400} height={280}>
+              <MarkPlate label="LOCKUP · STACKED" sub="PRIMARY">
+                <M.LockupStack />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="lockup-h" label="02 — Horizontal lockup" width={620} height={200}>
+              <MarkPlate label="LOCKUP · HORIZONTAL" sub="SECONDARY" w={620} h={200}>
+                <M.HorizontalLockup />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="lockup-rule" label="03 — Wordmark + drifting rule" width={520} height={260}>
+              <MarkPlate label="WORDMARK · RULE" sub="EDITORIAL" w={520} h={260}>
+                <M.WordmarkRule />
+              </MarkPlate>
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="wordmark" title="Wordmark studies">
+            <DCArtboard id="wm-tipped" label="04 — Tipped 'I'" width={560} height={240}>
+              <MarkPlate label="WORDMARK · TIPPED I" sub="DRIFT IN THE LETTERFORM" w={560} h={240}>
+                <M.WordmarkTipped />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="wm-italic" label="05 — Italic wordmark" width={520} height={240}>
+              <MarkPlate label="WORDMARK · ITALIC" sub="VOICE-LED" w={520} h={240}>
+                <M.ItalicWordmark />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="wm-bracket" label="06 — Bracketed" width={520} height={240}>
+              <MarkPlate label="WORDMARK · BRACKETED" sub="MARGINALIA" w={520} h={240}>
+                <M.Bracketed />
+              </MarkPlate>
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="symbol" title="Symbol marks (where a glyph is needed)">
+            <DCArtboard id="sym-mono" label="07 — Monogram (D + drift arrow)" width={300} height={280}>
+              <MarkPlate label="SYMBOL · MONOGRAM" sub="APP / FAVICON" w={300} h={280}>
+                <M.Monogram />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="sym-five" label="08 — Five lines, one drifted" width={300} height={280}>
+              <MarkPlate label="SYMBOL · FIVE LINES" sub="CONCEPTUAL" w={300} h={280}>
+                <M.FiveLines />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="sym-arrows" label="09 — Two arrows" width={320} height={240}>
+              <MarkPlate label="SYMBOL · TWO ARROWS" sub="REDUCTIVE" w={320} h={240}>
+                <M.TwoArrows />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="sym-field" label="10 — Field badge" width={300} height={280}>
+              <MarkPlate label="SYMBOL · FIELD" sub="SEAL / STAMP" w={300} h={280}>
+                <M.FieldBadge />
+              </MarkPlate>
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="dark" title="On dark">
+            <DCArtboard id="dark-1" label="Stacked lockup, dark" width={400} height={280}>
+              <MarkPlate label="LOCKUP · STACKED" sub="ON INK" dark>
+                <svg viewBox="0 0 360 200" width="320" height="auto">
+                  <text x="0" y="86" fontFamily="Source Serif 4, serif" fontWeight="300" fontSize="100" letterSpacing="-2" fill="#f4f1ea">DRIFT</text>
+                  <line x1="0" y1="110" x2="320" y2="110" stroke="#f4f1ea" strokeWidth="0.8" />
+                  <text x="0" y="138" fontFamily="JetBrains Mono, monospace" fontSize="14" letterSpacing="3" fill="#f4f1ea">PARTNERS</text>
+                  <circle cx="232" cy="130" r="3" fill="#d99a85" />
+                </svg>
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="dark-2" label="Italic wordmark, dark" width={400} height={240}>
+              <MarkPlate label="WORDMARK · ITALIC" sub="ON INK" dark w={400} h={240}>
+                <M.ItalicWordmark color="#f4f1ea" accent="#d99a85" />
+              </MarkPlate>
+            </DCArtboard>
+            <DCArtboard id="dark-3" label="Monogram, dark" width={300} height={280}>
+              <MarkPlate label="SYMBOL · MONOGRAM" sub="ON INK" dark w={300} h={280}>
+                <M.Monogram color="#f4f1ea" accent="#d99a85" />
+              </MarkPlate>
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="apps" title="Applications">
+            <DCArtboard id="card" label="Business card" width={460} height={300}>
+              <div style={{ width: "100%", height: "100%", background: "#ece8df", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <BusinessCard />
+              </div>
+            </DCArtboard>
+            <DCArtboard id="letter" label="Letterhead" width={500} height={320}>
+              <div style={{ width: "100%", height: "100%", background: "#ece8df", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <Letterhead />
+              </div>
+            </DCArtboard>
+            <DCArtboard id="favs" label="Favicon / app icon" width={460} height={200}>
+              <div style={{ width: "100%", height: "100%", background: "#ece8df", display: "flex", alignItems: "center", justifyContent: "center", gap: 32 }}>
+                <Favicon label="Monogram">
+                  <svg viewBox="0 0 200 200" width="40" height="40" fill="none">
+                    <text x="100" y="142" textAnchor="middle" fontFamily="Source Serif 4, serif" fontWeight="300" fontSize="170" letterSpacing="-4" fill="#f4f1ea">D</text>
+                    <g transform="translate(108 100) rotate(18)">
+                      <line x1="-18" y1="0" x2="18" y2="0" stroke="#d99a85" strokeWidth="2" />
+                      <polyline points="13,-3 18,0 13,3" stroke="#d99a85" strokeWidth="2" fill="none" />
+                    </g>
+                  </svg>
+                </Favicon>
+                <Favicon label="Two arrows">
+                  <svg viewBox="0 0 100 100" width="40" height="40" fill="none">
+                    <line x1="20" y1="40" x2="80" y2="40" stroke="#f4f1ea" strokeWidth="2.4" />
+                    <polyline points="74,36 80,40 74,44" stroke="#f4f1ea" strokeWidth="2.4" />
+                    <g transform="rotate(14 50 60)">
+                      <line x1="20" y1="60" x2="80" y2="60" stroke="#d99a85" strokeWidth="2.4" />
+                      <polyline points="74,56 80,60 74,64" stroke="#d99a85" strokeWidth="2.4" />
+                    </g>
+                  </svg>
+                </Favicon>
+                <Favicon label="Field">
+                  <svg viewBox="0 0 100 100" width="40" height="40" fill="none">
+                    <circle cx="50" cy="50" r="44" stroke="#f4f1ea" strokeWidth="1.5" />
+                    {[0,1,2,3].map(r => [0,1,2,3].map(c => {
+                      const x = 22 + c * 12; const y = 22 + r * 12;
+                      const drift = (c / 3) ** 1.4;
+                      const drifted = drift > 0.6;
+                      return (
+                        <g key={`${r}-${c}`} transform={`translate(${x} ${y}) rotate(${drift * 60})`}>
+                          <line x1="-3" y1="0" x2="3" y2="0" stroke={drifted ? "#d99a85" : "#f4f1ea"} strokeWidth="1.2" />
+                        </g>
+                      );
+                    }))}
+                  </svg>
+                </Favicon>
+              </div>
+            </DCArtboard>
+          </DCSection>
+
+          <DCSection id="notes" title="Notes on the system">
+            <DCArtboard id="rationale" label="Rationale" width={720} height={360}>
+              <div style={{ padding: "32px 40px", fontFamily: "Source Serif 4, serif", color: "#14110d", background: "#f4f1ea", height: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
+                <div style={{ fontFamily: "JetBrains Mono, monospace", fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "#6b6358" }}>NOTES</div>
+                <h3 style={{ fontWeight: 300, fontSize: 28, letterSpacing: "-0.015em", margin: 0 }}>The mark must read as <em style={{ color: "#7a2e1f" }}>composure under drift</em>.</h3>
+                <p style={{ fontSize: 15, lineHeight: 1.55, color: "#2a2520", margin: 0 }}>
+                  No icon. No abstract swoop. No metaphor. The wordmark, set in a literary serif (Source Serif 4, light), is the brand. The drift is encoded as a single quiet gesture — a tipped 'I', an arrow falling off-axis, a vector misaligned by eleven degrees — never more than once per composition.
+                </p>
+                <p style={{ fontSize: 15, lineHeight: 1.55, color: "#2a2520", margin: 0 }}>
+                  Recommendation: <em>Stacked lockup</em> as the primary. <em>Horizontal lockup</em> for documents and email. <em>Monogram</em> only where a glyph is structurally required (favicon, app icon, social avatar).
+                </p>
+              </div>
+            </DCArtboard>
+          </DCSection>
+        </DesignCanvas>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>

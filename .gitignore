@@ -1,0 +1,13 @@
+# Cloudflare Wrangler
+.wrangler/
+node_modules/
+
+# The original zip (already extracted)
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backups from the deploy script
+_site.bak/
