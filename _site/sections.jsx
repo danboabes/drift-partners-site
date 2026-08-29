@@ -200,31 +200,31 @@ function Mechanisms() {
       n: "01",
       Icon: Diagram.MechMarks.Technical,
       title: "Operational blind spots",
-      body: "A handoff signed off but not complete in practice. A workaround forced on every step that follows."
+      body: "One team hands its work to another, and the sign-off says the job is done. The team that took it over quietly rebuilds half of it, and no status report has a line for that."
     },
     {
       n: "02",
       Icon: Diagram.MechMarks.Capability,
       title: "Role overload",
-      body: "A senior contributor doing work the role was not built for. People around them have learned to fill the gap."
+      body: "One senior person holds the programme together by doing work that their role was never built for. Everyone has learned to plan around them, so the risk stays invisible."
     },
     {
       n: "03",
       Icon: Diagram.MechMarks.Decision,
       title: "Decision breakdowns",
-      body: "Questions settled by whichever forum discusses them last. Or by neither. Decisions reopened on Thursday."
+      body: "A decision is made in Monday's steering meeting. By Thursday another forum has quietly reopened it, and each site follows its own version."
     },
     {
       n: "04",
       Icon: Diagram.MechMarks.Structural,
       title: "Structural contradictions",
-      body: "Two functions measured in opposing directions. The programme has decided, implicitly, to wait and see which one wins."
+      body: "One function is paid to move fast, another is paid to be safe. The programme has decided, implicitly, to wait and see which one wins."
     },
     {
       n: "05",
       Icon: Diagram.MechMarks.Information,
       title: "Information distortion",
-      body: "Status truthful in form but misleading in substance. Escalations absorbed by middle layers because escalating costs more."
+      body: "Every line of the status report is true, and the report is still wrong. Bad news gets softer at each level, because carrying it upward has a price."
     }
   ];
   return (
@@ -245,8 +245,8 @@ function Mechanisms() {
           three or four operating simultaneously, amplifying one another.
         </p>
         <p className="prose" style={{ marginTop: "1.4em", marginBottom: 48, fontStyle: "italic", color: "var(--accent)" }}>
-          We identify which of these are operating in your programme. Most drifting programmes
-          have three or four at once. We do not act on all of them; we act on the ones that
+          Below, each family with one example of how it shows up. In a live programme each takes
+          many forms. We identify which are operating in yours, and we act on the ones that
           move the system.
         </p>
         <div className="mechanism-grid">
