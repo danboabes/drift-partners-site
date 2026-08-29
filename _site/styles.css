@@ -91,8 +91,8 @@ button { font: inherit; background: none; border: 0; color: inherit; cursor: poi
   align-items: center;
   color: var(--ink);
 }
-.nav-brand svg { transition: opacity 200ms ease; }
-.nav-brand:hover svg { opacity: 0.75; }
+.nav-brand svg, .nav-brand img { transition: opacity 200ms ease; }
+.nav-brand:hover svg, .nav-brand:hover img { opacity: 0.75; }
 
 .nav-links {
   display: flex;
@@ -958,8 +958,8 @@ footer.foot { font-size: 13px; font-weight: 500; }
 
 /* Official logo in the nav (brief 2026-06-09) */
 .nav-logo { display: block; width: auto; }
-.nav-logo-full { height: 68px; }
-.nav-logo-clean { display: none; height: 48px; }
+.nav-logo-full { height: 88px; }
+.nav-logo-clean { display: none; height: 60px; }
 @media (max-width: 640px) {
   .nav-logo-full { display: none; }
   .nav-logo-clean { display: block; }

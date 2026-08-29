@@ -131,7 +131,7 @@ function Observable() {
     <section className="band" id="observable">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">01 — Drift, in observable form</div>
+          <div className="ord">01 · Drift, in observable form</div>
           <h2>Drift is what happens when competent people, working hard, produce a <em>collective result</em> nobody intended.</h2>
         </div>
         <div style={{ maxWidth: "62ch" }}>
@@ -157,7 +157,7 @@ function Mishearing() {
     <section className="band">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">03 — The translation layer</div>
+          <div className="ord">03 · The translation layer</div>
           <h2>Same words. <em>Different</em> operating meaning.</h2>
         </div>
         <div style={{ maxWidth: "62ch" }}>
@@ -231,7 +231,7 @@ function Mechanisms() {
     <section className="band tight" id="mechanisms" style={{ paddingTop: 80, paddingBottom: 110 }}>
       <div className="shell">
         <div className="section-head">
-          <div className="ord">02 — Five families of mechanism</div>
+          <div className="ord">02 · Five families of mechanism</div>
           <h2>Drift is fixed by removing <em>mechanisms</em>, not symptoms.</h2>
         </div>
         <p className="prose">
@@ -279,7 +279,7 @@ function WrongResponses() {
     <section className="band dark">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">04 — Common responses</div>
+          <div className="ord">04 · Common responses</div>
           <h2>The symptoms get cured. The drift continues.</h2>
         </div>
         <p className="prose" style={{ maxWidth: "60ch", marginBottom: 24 }}>
@@ -359,7 +359,7 @@ function Vignettes() {
     <section className="band deep" id="vignettes">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">05 — Cases</div>
+          <div className="ord">05 · Cases</div>
           <h2>What the work has looked like.</h2>
         </div>
         <p className="prose" style={{ marginBottom: 32 }}>
@@ -427,7 +427,7 @@ function Engagements() {
     <section className="band" id="engagements">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">06 — The work, in three formats</div>
+          <div className="ord">06 · The work, in three formats</div>
           <h2>Clear role. Clear output. <em>Clear exit.</em></h2>
         </div>
         <p className="prose" style={{ marginTop: -8, marginBottom: 40, fontStyle: "italic", fontSize: 22, color: "var(--accent)" }}>
@@ -519,7 +519,7 @@ function Qualifier() {
     <section className="band tight">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">07 — Whether this is for you</div>
+          <div className="ord">07 · Whether this is for you</div>
           <h2>We are explicit about the work we will <em>not</em> take on.</h2>
         </div>
         <div className="qualifier">
@@ -555,7 +555,7 @@ function About() {
     <section className="band deep" id="about">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">08 — The practice</div>
+          <div className="ord">08 · The practice</div>
           <h2>A small team. We will <em>stay</em> small.</h2>
         </div>
         <p className="prose" style={{ marginBottom: 56, maxWidth: "none" }}>
@@ -595,7 +595,7 @@ function About() {
           </div>
         </div>
         <div className="rule" style={{ margin: "72px 0 24px" }}></div>
-        <span className="marg">SELECTED CLIENTS — DRIFT PARTNERS / EMIC LAB</span>
+        <span className="marg">SELECTED CLIENTS · DRIFT PARTNERS / EMIC LAB</span>
         <p style={{ marginTop: 8, fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 15, lineHeight: 1.5, color: "var(--accent)" }}>
           Work delivered across North America, Europe, India, and the Gulf countries.
         </p>
@@ -621,7 +621,7 @@ function Contact() {
     <section className="band dark" id="contact">
       <div className="shell">
         <div className="section-head">
-          <div className="ord">09 — A note about your programme</div>
+          <div className="ord">09 · A note about your programme</div>
           <h2>If something here described <em>your</em> programme, write to us.</h2>
         </div>
         <div className="signoff">
@@ -644,7 +644,7 @@ function Contact() {
               <strong>Or drop us a line. We will contact you.</strong>
             </p>
             <p style={{ marginTop: "1.4em" }}>
-              <em>— Anna, Joanna &amp; Dan</em>
+              <em>Anna, Joanna &amp; Dan</em>
             </p>
           </div>
           <div>
