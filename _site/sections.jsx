@@ -34,6 +34,7 @@ function Nav() {
           <a href="#mechanisms" className="always-show" onClick={close}>Approach</a>
           <a href="#vignettes" className="always-show" onClick={close}>Cases</a>
           <a href="#about" className="always-show" onClick={close}>About</a>
+          <a href="/field-notes/" className="always-show" onClick={close}>Field notes</a>
           <a href="#contact" className="nav-cta always-show" onClick={close}>Contact</a>
         </div>
       </div>
@@ -91,6 +92,23 @@ function Hero() {
               What you share stays in the room. We lead the conversation. Bring the programme
               that no longer reads clearly. You will leave with a working view of whether this
               is likely to be drift, and whether we are the right people to help.
+            </p>
+            <p style={{
+              marginTop: 0,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 14,
+              letterSpacing: "0.04em",
+              textTransform: "uppercase",
+              fontStyle: "normal",
+              color: "var(--ink-mute)"
+            }}>
+              <a href="/field-notes/"
+                onClick={() => track("cta_click", { cta_id: "read_the_writing", location: "hero" })}
+                style={{ color: "var(--ink-mute)", textDecoration: "none", borderBottom: "1px solid var(--rule)", paddingBottom: 2, whiteSpace: "nowrap" }}>Read the writing &nbsp;&rarr;</a>
+              <span style={{ color: "var(--ink-quiet)", padding: "0 14px" }}>&middot;</span>
+              <a href="https://www.linkedin.com/in/anna-chodynicka" target="_blank" rel="noopener"
+                onClick={() => track("outbound_click", { link_id: "linkedin_profile", location: "hero" })}
+                style={{ color: "var(--ink-mute)", textDecoration: "none", borderBottom: "1px solid var(--rule)", paddingBottom: 2, whiteSpace: "nowrap" }}>Follow on LinkedIn &nbsp;&rarr;</a>
             </p>
           </div>
         </div>
