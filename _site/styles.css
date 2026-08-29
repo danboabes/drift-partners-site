@@ -954,3 +954,13 @@ footer.foot { font-size: 13px; font-weight: 500; }
   background: var(--accent);
   color: var(--paper);
 }
+
+
+/* Official logo in the nav (brief 2026-06-09) */
+.nav-logo { display: block; width: auto; }
+.nav-logo-full { height: 68px; }
+.nav-logo-clean { display: none; height: 48px; }
+@media (max-width: 640px) {
+  .nav-logo-full { display: none; }
+  .nav-logo-clean { display: block; }
+}

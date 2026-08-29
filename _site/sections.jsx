@@ -19,12 +19,8 @@ function Nav() {
     <nav className="nav">
       <div className="shell nav-inner">
         <a href="#" className="nav-brand" style={{ textDecoration: "none" }} onClick={close}>
-          <svg viewBox="0 0 560 230" width="170" height="auto" style={{ display: "block" }}>
-            <text x="0" y="100" fontFamily="'Source Serif 4', serif" fontWeight="300" fontSize="120" letterSpacing="-2" fill="#1A1A1A">DRIFT</text>
-            <text x="0" y="138" fontFamily="'JetBrains Mono', monospace" fontSize="26" fontWeight="700" letterSpacing="5" fill="#1A1A1A">PARTNERS</text>
-            <line x1="0" y1="165" x2="540" y2="165" stroke="#C2A25A" strokeWidth="1" />
-            <text x="0" y="205" fontFamily="'Source Serif 4', serif" fontStyle="italic" fontWeight="300" fontSize="30" letterSpacing="0" fill="#C2A25A">a practice of Emic Lab</text>
-          </svg>
+          <img src="drift-light.svg" alt="DRIFT Partners, a practice of Emic Lab" className="nav-logo nav-logo-full" />
+          <img src="drift-light-clean.svg" alt="DRIFT Partners" className="nav-logo nav-logo-clean" />
         </a>
         <button
           className="nav-toggle"
@@ -691,7 +687,7 @@ function Foot() {
     <footer className="foot">
       <div className="shell" style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 24, width: "100%" }}>
         <span>DRIFT Partners · A practice of Emic Lab S.C.</span>
-        <span>© 2006–2026 · Same partners. Evolving the work.</span>
+        <span>© 2006–2026 DRIFT Partners (Emic Lab S.C.). All rights reserved.</span>
         <span>amc@emic.pl · +48 663 057 223</span>
       </div>
     </footer>
