@@ -963,3 +963,26 @@ footer.foot { font-size: 13px; font-weight: 500; }
 @media (max-width: 640px) {
   .nav-logo-clean { height: 64px; }
 }
+
+/* ============================================================
+   Round 6 — readability upweights (Ana, 2026-08-29):
+   all small text one step up
+   ============================================================ */
+
+/* Small-caps mono labels: 13 -> 14 */
+.nav-inner, .hero-meta, .section-head .ord, .vignette .vmeta,
+.vignette .outcome .label, .eng .ekind, .note-form .field span,
+.note-form .submit, .marg, footer.foot, .hero-side .label { font-size: 14px; }
+
+/* Mono card/term labels still at 11: one step up */
+.def-card .term { font-size: 12.5px; }
+
+/* Card and list bodies */
+.mech p { font-size: 17px; }
+.step p { font-size: 18px; }
+.eng p { font-size: 16px; }
+.eng .duration { font-size: 16px; }
+.eng li { font-size: 15px; }
+.def-card .footnote { font-size: 15px; }
+.qualifier li { font-size: 17px; }
+.signoff .contact-card .meta { font-size: 15px; }
