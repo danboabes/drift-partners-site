@@ -149,7 +149,8 @@ footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; f
   html, body { font-size: 16px; }
   .shell { padding: 0 24px; }
   .nav-logo { height: 64px; }
-  .nav-links { gap: 18px; font-size: 13px; }
+  .nav-links { gap: 16px; row-gap: 6px; flex-wrap: wrap; justify-content: flex-end; font-size: 14px; }
+  .nav-inner { align-items: flex-start; gap: 16px; }
   .note { padding: 56px 0 48px; }
   .index-head { padding: 56px 0 0; }
   .note-body p { font-size: 18px; }
