@@ -1076,3 +1076,7 @@ h1, h2, h3, .hero-headline { text-wrap: balance; }
 .eng .duration,
 .partner p,
 .def-card .footnote { font-size: 21px; line-height: 1.6; }
+
+/* Round 10c — the LinkedIn mark scales with its text, not a fixed pixel size */
+.li-mark { width: 1.05em; height: 1.05em; top: 0.1em; }
+.contact-card .li-mark { width: 1.05em; height: 1.05em; }

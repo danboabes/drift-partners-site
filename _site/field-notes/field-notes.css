@@ -228,3 +228,7 @@ footer.foot { font-size: 18px; }
 /* Round 9b — line breaking */
 p, li, .note-standfirst, .index-item p { text-wrap: pretty; }
 h1, h2 { text-wrap: balance; }
+
+/* Round 10c — the LinkedIn mark scales with its text */
+.li-mark { width: 1.05em; height: 1.05em; top: 0.1em; }
+.note-foot .byline .li-inline .li-mark { width: 1.05em; height: 1.05em; }
