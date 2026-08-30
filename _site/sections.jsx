@@ -57,7 +57,7 @@ function Hero() {
             Activity is not <em>alignment.</em>
           </h1>
           <div className="hero-side">
-            <span className="label" style={{ fontSize: 19, fontWeight: 500, fontStyle: "normal", color: "var(--ink-mute)" }}>On the quiet loss of direction at the system level</span>
+            <span className="label" style={{ fontSize: 20, fontWeight: 500, fontStyle: "normal", color: "var(--ink-mute)" }}>On the quiet loss of direction at the system level</span>
             <p>
               <span className="lede" style={{ fontStyle: "normal" }}>Programmes rarely fail because of incompetence.</span>{" "}
               They fail when competent work pulls in different directions. Work continues.
@@ -88,7 +88,7 @@ function Hero() {
                 textTransform: "uppercase"
               }}>Start with a 60-minute conversation &nbsp;→</a>
             </p>
-            <p style={{ marginTop: 14, fontSize: 19, lineHeight: 1.55, color: "var(--accent)" }}>
+            <p style={{ marginTop: 14, fontSize: 20, lineHeight: 1.55, color: "var(--accent)" }}>
               What you share stays in the room. We lead the conversation. Bring the programme
               that no longer reads clearly. You will leave with a working view of whether this
               is likely to be drift, and whether we are the right people to help.
@@ -96,7 +96,7 @@ function Hero() {
             <p style={{
               marginTop: 0,
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: 18,
+              fontSize: 20,
               letterSpacing: "0.04em",
               textTransform: "uppercase",
               fontStyle: "normal",
@@ -315,7 +315,7 @@ function WrongResponses() {
             <div key={i} style={{ background: "var(--ink)", padding: "32px 28px", display: "flex", flexDirection: "column", gap: 12 }}>
               <span className="mono" style={{ color: "#888076" }}>×&nbsp;&nbsp;{String(i + 1).padStart(2, "0")}</span>
               <div style={{ fontFamily: "Source Serif 4, serif", fontSize: 28, fontWeight: 300, letterSpacing: "-0.01em", color: "var(--paper)" }}>{w.what}</div>
-              <p style={{ fontSize: 18, color: "#b8b1a4", lineHeight: 1.55 }}>{w.why}</p>
+              <p style={{ fontSize: 20, color: "#b8b1a4", lineHeight: 1.55 }}>{w.why}</p>
             </div>
           ))}
         </div>
@@ -397,7 +397,7 @@ function Vignettes() {
                   <span className="label">Outcome</span>
                   <p>{c.outcome}</p>
                 </div>
-                <p style={{ marginBottom: 22, paddingBottom: 18, borderBottom: "1px dashed var(--rule)", fontStyle: "italic", fontSize: 19, lineHeight: 1.5, color: "var(--accent)" }}>
+                <p style={{ marginBottom: 22, paddingBottom: 18, borderBottom: "1px dashed var(--rule)", fontStyle: "italic", fontSize: 20, lineHeight: 1.5, color: "var(--accent)" }}>
                   {c.role}
                 </p>
                 {c.body.map((p, j) => <p key={j}>{p}</p>)}
@@ -456,7 +456,7 @@ function Engagements() {
             <div className="eng" key={e.kind}>
               <span className="ekind">{e.kind}</span>
               <h4>{e.title}</h4>
-              <p style={{ fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 18, lineHeight: 1.45, color: "var(--accent)", margin: "4px 0 8px" }}>
+              <p style={{ fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 20, lineHeight: 1.45, color: "var(--accent)", margin: "4px 0 8px" }}>
                 {e.sub}
               </p>
               <span className="duration">{e.duration}</span>
@@ -464,7 +464,7 @@ function Engagements() {
               <ul>
                 {e.bullets.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
-              <p style={{ marginTop: 18, paddingTop: 14, borderTop: "1px dashed var(--rule)", fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 18, lineHeight: 1.5, color: "var(--accent)" }}>
+              <p style={{ marginTop: 18, paddingTop: 14, borderTop: "1px dashed var(--rule)", fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 20, lineHeight: 1.5, color: "var(--accent)" }}>
                 {e.leaveWith}
               </p>
             </div>
@@ -520,7 +520,7 @@ function WaysToBegin() {
               <ul>
                 {c.bullets.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
-              <p style={{ marginTop: 18, paddingTop: 14, borderTop: "1px dashed var(--rule)", fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 18, lineHeight: 1.5, color: "var(--accent)" }}>
+              <p style={{ marginTop: 18, paddingTop: 14, borderTop: "1px dashed var(--rule)", fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 20, lineHeight: 1.5, color: "var(--accent)" }}>
                 {c.leaveWith}
               </p>
             </div>
@@ -614,7 +614,7 @@ function About() {
         </div>
         <div className="rule" style={{ margin: "72px 0 24px" }}></div>
         <span className="marg">SELECTED CLIENTS · DRIFT PARTNERS / EMIC LAB</span>
-        <p style={{ marginTop: 8, fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 18, lineHeight: 1.5, color: "var(--accent)" }}>
+        <p style={{ marginTop: 8, fontFamily: "'Source Serif 4', serif", fontStyle: "italic", fontSize: 20, lineHeight: 1.5, color: "var(--accent)" }}>
           Work delivered across North America, Europe, India, and the Gulf countries.
         </p>
         <div className="clients" style={{ marginTop: 24 }}>
