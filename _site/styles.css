@@ -1022,3 +1022,22 @@ footer.foot { font-size: 13px; font-weight: 500; }
 
 /* .mono is relative: 0.78em was 11 to 12.5px depending on the parent */
 .mono { font-size: 0.92em; }
+
+/* ============================================================
+   Round 8 — Ana, 2026-08-30: round 7 was not visible.
+   Mono uppercase with letterspacing reads two steps smaller
+   than its nominal size, so the label family goes to 16px.
+   ============================================================ */
+
+.nav-inner, .hero-meta, .section-head .ord, .vignette .vmeta,
+.vignette .outcome .label, .eng .ekind, .note-form .field span,
+.note-form .submit, .marg, .hero-side .label,
+.mech .num, .qualifier h3, .signoff .contact-card .label,
+.note-form .label, .eyebrow, .def-card .term { font-size: 16px; }
+
+footer.foot { font-size: 15px; }
+.mono { font-size: 1em; }
+
+.eng li { font-size: 16px; }
+.def-card .footnote { font-size: 16px; }
+.signoff .contact-card .meta { font-size: 16px; }
