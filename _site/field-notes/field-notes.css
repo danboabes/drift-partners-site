@@ -224,3 +224,7 @@ footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; f
 .index-lede { font-size: 25px; }
 footer.foot { font-size: 18px; }
 @media (max-width: 720px) { .nav-links { font-size: 17px; } }
+
+/* Round 9b — line breaking */
+p, li, .note-standfirst, .index-item p { text-wrap: pretty; }
+h1, h2 { text-wrap: balance; }

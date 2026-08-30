@@ -1041,3 +1041,18 @@ footer.foot { font-size: 18px; }
 .eng li { font-size: 19px; }
 .def-card .footnote { font-size: 19px; }
 .signoff .contact-card .meta { font-size: 19px; }
+
+/* ============================================================
+   Round 9b — line breaking after the type scale went up
+   ============================================================ */
+
+/* No single-word last lines in body copy (Chrome, Edge, Safari 17+) */
+p, li, .note-standfirst, .index-item p { text-wrap: pretty; }
+h1, h2, h3, .hero-headline { text-wrap: balance; }
+
+/* The section numeral column was cut for 13px type and now wraps */
+.section-head { grid-template-columns: 280px 1fr; }
+.section-head .ord { letter-spacing: 0.10em; }
+
+/* Give the hero side column room, the lines had grown too short */
+.hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 72px; }
