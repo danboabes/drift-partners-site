@@ -57,7 +57,7 @@ function Hero() {
             Activity is not <em>alignment.</em>
           </h1>
           <div className="hero-side">
-            <span className="label" style={{ fontSize: 13, fontWeight: 500, fontStyle: "normal", color: "var(--ink-mute)" }}>On the quiet loss of direction at the system level</span>
+            <span className="label" style={{ fontSize: 15, fontWeight: 500, fontStyle: "normal", color: "var(--ink-mute)" }}>On the quiet loss of direction at the system level</span>
             <p>
               <span className="lede" style={{ fontStyle: "normal" }}>Programmes rarely fail because of incompetence.</span>{" "}
               They fail when competent work pulls in different directions. Work continues.
