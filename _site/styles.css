@@ -21,8 +21,8 @@ html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
-  font-size: 18px;
-  line-height: 1.55;
+  font-size: 21px;
+  line-height: 1.6;
   font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -61,7 +61,7 @@ button { font: inherit; background: none; border: 0; color: inherit; cursor: poi
 
 @media (max-width: 720px) {
   .shell { padding: 0 24px; }
-  html, body { font-size: 16px; }
+  html, body { font-size: 19px; }
 }
 
 /* ---------- Nav ---------- */
@@ -81,7 +81,7 @@ button { font: inherit; background: none; border: 0; color: inherit; cursor: poi
   justify-content: space-between;
   padding: 12px 0 10px;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -125,7 +125,7 @@ button { font: inherit; background: none; border: 0; color: inherit; cursor: poi
   display: flex;
   justify-content: space-between;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -179,13 +179,13 @@ button { font: inherit; background: none; border: 0; color: inherit; cursor: poi
 }
 .hero-side .label {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-mute);
 }
 .hero-side p {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.6;
   color: var(--ink-soft);
 }
@@ -242,7 +242,7 @@ section.band.deep {
 }
 .section-head .ord {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -269,7 +269,7 @@ section.band.dark .section-head h2 em { color: #d99a85; }
 
 .prose {
   max-width: 64ch;
-  font-size: 19px;
+  font-size: 22px;
   line-height: 1.62;
   color: var(--ink-soft);
 }
@@ -302,7 +302,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .def-card .term {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -316,7 +316,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   margin-right: 8px;
 }
 .def-card .definition {
-  font-size: 22px;
+  font-size: 26px;
   line-height: 1.4;
   font-weight: 300;
   color: var(--ink);
@@ -326,7 +326,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   margin-top: 24px;
   padding-top: 18px;
   border-top: 1px dashed var(--rule);
-  font-size: 14px;
+  font-size: 17px;
   color: var(--ink-mute);
 }
 
@@ -359,19 +359,19 @@ section.band.dark .prose .pull { color: var(--paper); }
 .mech:hover { background: var(--paper-deep); }
 .mech .num {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   color: var(--ink-mute);
 }
 .mech h4 {
   font-family: 'Source Serif 4', serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.01em;
 }
 .mech p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
   color: var(--ink-mute);
 }
@@ -418,14 +418,14 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .step h3 {
   font-family: 'Source Serif 4', serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.01em;
   margin-bottom: 14px;
 }
 .step p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6;
   color: var(--ink-mute);
 }
@@ -451,7 +451,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 
 .vignette .vmeta {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -462,14 +462,14 @@ section.band.dark .prose .pull { color: var(--paper); }
 .vignette .vmeta .industry { color: var(--ink); }
 .vignette h3 {
   font-family: 'Source Serif 4', serif;
-  font-size: 28px;
+  font-size: 33px;
   font-weight: 400;
   letter-spacing: -0.015em;
   line-height: 1.15;
   margin-bottom: 16px;
 }
 .vignette .v-body p {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.6;
   color: var(--ink-soft);
 }
@@ -485,7 +485,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .vignette .outcome .label {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
@@ -493,7 +493,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 .vignette .outcome p {
   font-style: italic;
   color: var(--ink);
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -516,14 +516,14 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .eng .ekind {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-mute);
 }
 .eng h4 {
   font-family: 'Source Serif 4', serif;
-  font-size: 28px;
+  font-size: 33px;
   font-weight: 300;
   letter-spacing: -0.015em;
   line-height: 1.1;
@@ -531,10 +531,10 @@ section.band.dark .prose .pull { color: var(--paper); }
 .eng .duration {
   font-style: italic;
   color: var(--accent);
-  font-size: 15px;
+  font-size: 18px;
 }
 .eng p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.55;
   color: var(--ink-mute);
 }
@@ -547,7 +547,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   gap: 8px;
 }
 .eng li {
-  font-size: 14px;
+  font-size: 17px;
   color: var(--ink-soft);
   padding-left: 18px;
   position: relative;
@@ -574,7 +574,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .qualifier h3 {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -582,7 +582,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .qualifier ul { list-style: none; display: flex; flex-direction: column; gap: 14px; }
 .qualifier li {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.45;
   padding-left: 28px;
   position: relative;
@@ -630,10 +630,10 @@ section.band.dark .prose .pull { color: var(--paper); }
   font-style: italic;
   color: var(--accent);
   margin-bottom: 24px;
-  font-size: 16px;
+  font-size: 19px;
 }
 .partner p {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.6;
   color: var(--ink-soft);
 }
@@ -646,7 +646,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   grid-template-columns: repeat(4, 1fr);
   gap: 4px 56px;
   font-family: 'Source Serif 4', serif;
-  font-size: 18px;
+  font-size: 21px;
 }
 .clients div {
   padding: 14px 0;
@@ -670,7 +670,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 
 .signoff .letter {
   font-family: 'Source Serif 4', serif;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 1.5;
   font-weight: 300;
   color: var(--paper);
@@ -686,7 +686,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .signoff .contact-card .label {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #888076;
@@ -708,7 +708,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   margin-top: 28px;
   display: grid;
   gap: 14px;
-  font-size: 14px;
+  font-size: 17px;
   color: #b8b1a4;
 }
 .signoff .contact-card .meta .row {
@@ -726,7 +726,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .note-form .label {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #888076;
@@ -742,7 +742,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 }
 .note-form .field span {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   color: #888076;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -754,7 +754,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   color: var(--paper);
   font: inherit;
   font-family: 'Source Serif 4', serif;
-  font-size: 16px;
+  font-size: 19px;
   width: 100%;
   outline: none;
   resize: none;
@@ -764,7 +764,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 .note-form .submit {
   margin-top: 24px;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--paper);
@@ -785,7 +785,7 @@ section.band.dark .prose .pull { color: var(--paper); }
 footer.foot {
   padding: 40px 0;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -799,7 +799,7 @@ footer.foot {
 
 .marg {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-mute);
@@ -817,7 +817,7 @@ footer.foot {
 .eyebrow {
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -854,38 +854,38 @@ section.band.dark .bigpull { color: var(--paper); }
    ============================================================ */
 
 /* Item 1 — small-caps elements: nav, section numerals, box labels */
-.nav-inner { font-size: 13px; font-weight: 500; }
+.nav-inner { font-size: 15px; font-weight: 500; }
 .nav-links { gap: 40px; }
-.hero-meta { font-size: 13px; font-weight: 500; }
-.section-head .ord { font-size: 13px; font-weight: 500; }
-.vignette .vmeta { font-size: 13px; font-weight: 500; }
-.vignette .outcome .label { font-size: 13px; font-weight: 500; }
-.eng .ekind { font-size: 13px; font-weight: 500; }
-.note-form .field span { font-size: 13px; font-weight: 500; }
-.note-form .submit { font-size: 13px; font-weight: 500; }
-.marg { font-size: 13px; font-weight: 500; }
+.hero-meta { font-size: 15px; font-weight: 500; }
+.section-head .ord { font-size: 15px; font-weight: 500; }
+.vignette .vmeta { font-size: 15px; font-weight: 500; }
+.vignette .outcome .label { font-size: 15px; font-weight: 500; }
+.eng .ekind { font-size: 15px; font-weight: 500; }
+.note-form .field span { font-size: 15px; font-weight: 500; }
+.note-form .submit { font-size: 15px; font-weight: 500; }
+.marg { font-size: 15px; font-weight: 500; }
 
 /* Item 2 — hero body upweight */
-.hero-side p { font-size: 20px; }
+.hero-side p { font-size: 24px; }
 
 /* Item 4b — mechanism box body upweight */
-.mech p { font-size: 16px; line-height: 1.55; }
+.mech p { font-size: 19px; line-height: 1.55; }
 
 /* Item 7 — step (approach) box body upweight */
-.step p { font-size: 17px; line-height: 1.6; }
+.step p { font-size: 20px; line-height: 1.6; }
 
 /* Item 10b — partner bio upweight */
-.partner p { font-size: 18px; line-height: 1.6; }
+.partner p { font-size: 21px; line-height: 1.6; }
 
 /* ============================================================
    Round 5 — additional upweights
    ============================================================ */
 
 /* 1i — Footer upweight */
-footer.foot { font-size: 13px; font-weight: 500; }
+footer.foot { font-size: 15px; font-weight: 500; }
 
 /* 1d — Hero subtitle (override .hero-side .label) */
-.hero-side .label { font-size: 13px; font-weight: 500; }
+.hero-side .label { font-size: 15px; font-weight: 500; }
 
 /* 1k — Stack the hero meta-line on all viewports */
 .hero-meta.hero-meta-stacked {
@@ -903,7 +903,7 @@ footer.foot { font-size: 13px; font-weight: 500; }
   cursor: pointer;
   padding: 8px 10px;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 1;
   color: var(--ink);
   -webkit-tap-highlight-color: transparent;
@@ -935,7 +935,7 @@ footer.foot { font-size: 13px; font-weight: 500; }
     display: block;
     padding: 14px 24px;
     min-height: 44px;
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 0.1em;
     border-top: 1px solid var(--rule-soft);
   }
@@ -972,20 +972,20 @@ footer.foot { font-size: 13px; font-weight: 500; }
 /* Small-caps mono labels: 13 -> 14 */
 .nav-inner, .hero-meta, .section-head .ord, .vignette .vmeta,
 .vignette .outcome .label, .eng .ekind, .note-form .field span,
-.note-form .submit, .marg, footer.foot, .hero-side .label { font-size: 14px; }
+.note-form .submit, .marg, footer.foot, .hero-side .label { font-size: 17px; }
 
 /* Mono card/term labels still at 11: one step up */
-.def-card .term { font-size: 12.5px; }
+.def-card .term { font-size: 15px; }
 
 /* Card and list bodies */
-.mech p { font-size: 17px; }
-.step p { font-size: 18px; }
-.eng p { font-size: 16px; }
-.eng .duration { font-size: 16px; }
-.eng li { font-size: 15px; }
-.def-card .footnote { font-size: 15px; }
-.qualifier li { font-size: 17px; }
-.signoff .contact-card .meta { font-size: 15px; }
+.mech p { font-size: 20px; }
+.step p { font-size: 21px; }
+.eng p { font-size: 19px; }
+.eng .duration { font-size: 19px; }
+.eng li { font-size: 18px; }
+.def-card .footnote { font-size: 18px; }
+.qualifier li { font-size: 20px; }
+.signoff .contact-card .meta { font-size: 18px; }
 
 /* ---------- LinkedIn mark (2026-08-29) ---------- */
 .li-link {
@@ -1016,9 +1016,9 @@ footer.foot { font-size: 13px; font-weight: 500; }
 .signoff .contact-card .label,
 .note-form .label,
 .eyebrow,
-.def-card .term { font-size: 14px; }
+.def-card .term { font-size: 17px; }
 
-.note-form .submit { font-size: 14px; }
+.note-form .submit { font-size: 17px; }
 
 /* .mono is relative: 0.78em was 11 to 12.5px depending on the parent */
 .mono { font-size: 0.92em; }
@@ -1033,11 +1033,11 @@ footer.foot { font-size: 13px; font-weight: 500; }
 .vignette .outcome .label, .eng .ekind, .note-form .field span,
 .note-form .submit, .marg, .hero-side .label,
 .mech .num, .qualifier h3, .signoff .contact-card .label,
-.note-form .label, .eyebrow, .def-card .term { font-size: 16px; }
+.note-form .label, .eyebrow, .def-card .term { font-size: 19px; }
 
-footer.foot { font-size: 15px; }
+footer.foot { font-size: 18px; }
 .mono { font-size: 1em; }
 
-.eng li { font-size: 16px; }
-.def-card .footnote { font-size: 16px; }
-.signoff .contact-card .meta { font-size: 16px; }
+.eng li { font-size: 19px; }
+.def-card .footnote { font-size: 19px; }
+.signoff .contact-card .meta { font-size: 19px; }
