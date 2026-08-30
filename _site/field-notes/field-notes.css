@@ -200,3 +200,8 @@ footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; f
     color: #444;
   }
 }
+
+.note-foot .follow { margin-top: 12px; font-size: 15px; }
+.note-foot .follow .li-link { color: var(--ink-soft); }
+.note-foot .follow .li-link:hover { color: var(--accent); }
+@media print { .note-foot .follow { display: none; } }
