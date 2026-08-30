@@ -1056,3 +1056,23 @@ h1, h2, h3, .hero-headline { text-wrap: balance; }
 
 /* Give the hero side column room, the lines had grown too short */
 .hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 72px; }
+
+/* ============================================================
+   Round 10 — one size for narrative prose (Ana, 2026-08-30)
+   The case bodies were sitting a step below the rest of the
+   running text. All narrative blocks now share the document
+   size; only the hero lead and the sign-off letter stay larger
+   on purpose.
+   ============================================================ */
+
+.vignette p,
+.vignette .v-body p,
+.vignette .outcome p,
+.mech p,
+.step p,
+.qualifier li,
+.eng p,
+.eng li,
+.eng .duration,
+.partner p,
+.def-card .footnote { font-size: 21px; line-height: 1.6; }
