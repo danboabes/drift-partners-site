@@ -155,3 +155,48 @@ footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; f
   .note-body p { font-size: 18px; }
   .note-standfirst { font-size: 19px; }
 }
+
+/* ---------- End mark, LinkedIn, print ---------- */
+
+.end-mark {
+  margin-top: 34px;
+  width: 9px;
+  height: 9px;
+  background: var(--accent);
+}
+
+.li-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: inherit;
+}
+.li-link:hover { color: var(--accent); }
+.li-mark {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  flex: none;
+  position: relative;
+  top: -1px;
+}
+
+@media print {
+  .nav, .note-nav, .note-cta, footer.foot { display: none !important; }
+  html, body { background: #fff; color: #000; font-size: 11pt; }
+  .shell { padding: 0; max-width: none; }
+  .note { padding: 0; }
+  .note-body p, .note-standfirst { font-size: 11pt; line-height: 1.5; }
+  h1.note-title { font-size: 22pt; }
+  .note-foot { border-top: 1px solid #999; }
+  .note-foot::after {
+    content: "drift.partners/field-notes  |  \00A9  2006-2026 DRIFT Partners (Emic Lab S.C.). All rights reserved.";
+    display: block;
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.06em;
+    color: #444;
+  }
+}

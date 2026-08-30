@@ -66,9 +66,10 @@
       <p>He goes through the three weeks again and again, and finds only one answer. They said they would be ready, and they did not deliver. No one even called to warn him. He keeps coming back to the same sentence: I trusted them. His trust was real. Professional adults, people who know their job better than he does. You do not stand over people like that and check on them every day. In his world, leaving them alone was the respect they had earned.</p>
       <p>On their side the story is different, and it is just as reasonable. Three weeks ago somebody said yes, and that day it was true. Then things changed, the way they change every week. The plan was rebuilt around what was most urgent, day after day, because in their world that is what good management looks like. You steer every day. To them, the old yes was not a broken promise but a direction that no one had confirmed again. They read his silence the way he now reads their delay: if it still mattered, he would have called.</p>
       <p>He trusted them. For three weeks, that trust meant not talking to them. Next time, he tells himself, he will check on them every day. But control is not the answer. Trust has a different job. Trust makes it easier to ask again, and easier to say that things have changed. It does not replace the conversation.</p>
+        <div class="end-mark" aria-hidden="true"></div>
       </div>
       <div class="note-foot">
-        <div class="byline">Anna Chodynicka, DRIFT Partners &middot; First published 26 August 2026</div>
+        <div class="byline">Anna Chodynicka, DRIFT Partners &middot; First published on LinkedIn, 26 August 2026</div>
         <div class="rights">Republishing by arrangement; quotation with attribution and a link.</div>
       </div>
       <div class="note-nav">
@@ -79,11 +80,27 @@
       </div>
     </div>
   </main>
+  <script>
+  (function () {
+    var SOURCE = "\n\nNeither trust nor control | DRIFT Partners. First published on LinkedIn, 26 August 2026.\nhttps://drift.partners/field-notes/neither-trust-nor-control/";
+    document.addEventListener("copy", function (e) {
+      var t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+      var sel = window.getSelection();
+      if (!sel) return;
+      var text = String(sel);
+      if (text.length < 100) return;
+      if (!e.clipboardData) return;
+      e.clipboardData.setData("text/plain", text + SOURCE);
+      e.preventDefault();
+    });
+  })();
+  </script>
   <footer class="foot">
     <div class="shell">
       <span>DRIFT Partners &middot; A practice of Emic Lab S.C.</span>
       <span>&copy; 2006&ndash;2026 DRIFT Partners (Emic Lab S.C.). All rights reserved.</span>
-      <span>amc@emic.pl &middot; +48 663 057 223</span>
+      <span><a href="https://www.linkedin.com/in/anna-chodynicka" target="_blank" rel="noopener" class="li-link"><svg class="li-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a> &middot; amc@emic.pl</span>
     </div>
   </footer>
 </body>

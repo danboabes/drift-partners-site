@@ -986,3 +986,22 @@ footer.foot { font-size: 13px; font-weight: 500; }
 .def-card .footnote { font-size: 15px; }
 .qualifier li { font-size: 17px; }
 .signoff .contact-card .meta { font-size: 15px; }
+
+/* ---------- LinkedIn mark (2026-08-29) ---------- */
+.li-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: inherit;
+}
+.li-link:hover { color: var(--accent); }
+.li-mark {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  flex: none;
+  position: relative;
+  top: -1px;
+}
+.contact-card .li-mark { width: 14px; height: 14px; }
