@@ -43,7 +43,7 @@ a:hover { color: var(--accent); }
   display: flex; align-items: center; justify-content: space-between;
   padding: 12px 0 10px;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+  font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase;
 }
 .nav-brand { display: flex; align-items: center; color: var(--ink); text-decoration: none; }
 .nav-logo { display: block; width: auto; height: 96px; transition: opacity 200ms ease; }
@@ -59,7 +59,7 @@ a:hover { color: var(--accent); }
 
 .note-kicker {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--ink-mute);
   margin-bottom: 26px;
 }
@@ -94,13 +94,13 @@ h1.note-title {
   font-size: 15px; color: var(--ink-mute);
 }
 .note-foot .byline { color: var(--ink-soft); }
-.note-foot .rights { margin-top: 8px; font-size: 14px; color: var(--ink-quiet); }
+.note-foot .rights { margin-top: 8px; font-size: 15px; color: var(--ink-quiet); }
 
 .note-nav {
   margin-top: 44px; max-width: 680px;
   display: flex; justify-content: space-between; gap: 28px; flex-wrap: wrap;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
+  font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase;
 }
 .note-nav a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; max-width: 20em; }
 .note-nav a:hover { color: var(--accent); }
@@ -127,12 +127,12 @@ h1.note-title {
 .index-item:first-child { border-top: 1px solid var(--rule); }
 .index-date {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--ink-quiet);
 }
 .index-item h2 { margin-top: 8px; font-weight: 400; font-size: 25px; line-height: 1.22; letter-spacing: -0.012em; }
 .index-item h2 a { text-decoration: none; }
-.index-item p { margin-top: 8px; font-size: 17px; line-height: 1.5; color: var(--ink-mute); max-width: 38em; }
+.index-item p { margin-top: 8px; font-size: 18px; line-height: 1.5; color: var(--ink-mute); max-width: 38em; }
 
 /* ---------- Footer ---------- */
 
@@ -140,7 +140,7 @@ footer.foot {
   padding: 40px 0;
   border-top: 1px solid var(--rule-soft);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--ink-mute);
 }
 footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
@@ -149,7 +149,7 @@ footer.foot .shell { display: flex; justify-content: space-between; gap: 24px; f
   html, body { font-size: 16px; }
   .shell { padding: 0 24px; }
   .nav-logo { height: 64px; }
-  .nav-links { gap: 20px; font-size: 12px; }
+  .nav-links { gap: 18px; font-size: 13px; }
   .note { padding: 56px 0 48px; }
   .index-head { padding: 56px 0 0; }
   .note-body p { font-size: 18px; }

@@ -1005,3 +1005,20 @@ footer.foot { font-size: 13px; font-weight: 500; }
   top: -1px;
 }
 .contact-card .li-mark { width: 14px; height: 14px; }
+
+/* ============================================================
+   Round 7 — readability, second pass (Ana, 2026-08-30):
+   nothing on the page below 14px
+   ============================================================ */
+
+.mech .num,
+.qualifier h3,
+.signoff .contact-card .label,
+.note-form .label,
+.eyebrow,
+.def-card .term { font-size: 14px; }
+
+.note-form .submit { font-size: 14px; }
+
+/* .mono is relative: 0.78em was 11 to 12.5px depending on the parent */
+.mono { font-size: 0.86em; }
