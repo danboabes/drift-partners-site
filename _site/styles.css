@@ -553,7 +553,7 @@ section.band.dark .prose .pull { color: var(--paper); }
   position: relative;
 }
 .eng li::before {
-  content: "—";
+  content: "·";
   position: absolute;
   left: 0;
   color: var(--ink-quiet);

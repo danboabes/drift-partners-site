@@ -427,8 +427,8 @@ function Engagements() {
       title: "Restoration",
       sub: "Restore direction through key decisions.",
       duration: "A few months",
-      body: "Diagnostic plus the work of restoring direction. Decisions made. Contradictions removed. Transferred to the teams through workshops and mentoring.",
-      bullets: ["Key decisions with single owners", "Workshops with executing teams", "Direction lives in the people, not the deck"],
+      body: "Diagnostic plus the work of restoring direction. Decisions made. Contradictions removed. Handed to the teams in sessions with the people who carry the work.",
+      bullets: ["Key decisions with single owners", "Sessions with the executing teams", "Direction lives in the people, not the deck"],
       leaveWith: "You leave with: key decisions stop reopening. Contradictions removed. Ownership transferred to the executing teams."
     },
     {
@@ -479,16 +479,6 @@ function Engagements() {
 function WaysToBegin() {
   const cards = [
     {
-      kind: "Sessions",
-      sub: "Group work to see the system.",
-      body: "Your team can feel the drift but cannot name it, so the problem starts to look like the other site or the other function. We work with the people closest to the work and make the system visible. When the tension sits between sites or functions, we may work with each side separately before the shared picture is ready. Once the system is visible, the other side stops being the only explanation. The tension drops, the conversation changes, and people work better where they have influence. A Session changes how the team works, not how the programme is run. Sessions run inside a Restoration, with the people closest to the work.",
-      bullets: [
-        "A team, a working group, or a few people carrying the same tension",
-        "The people closest to the work, separately or together as needed"
-      ],
-      leaveWith: "You leave with: a clearer view of the system, lower tension, and a short list of what to do differently tomorrow."
-    },
-    {
       kind: "1:1",
       sub: "An outside view for one decision-maker.",
       body: "You are carrying a programme, a business, or a strategy that is starting to drift, and no one inside can say it straight. Whether the blind spot sits in the system you are inside or the market you are moving in, we name what is hard to see from inside. Then we say what to do next: what to decide, what to change, who to talk to, and what not to spend energy on. Not coaching. Not personal development.",
@@ -512,7 +502,7 @@ function WaysToBegin() {
           Sessions are part of the work itself: they are how a Restoration hands direction
           to the teams.
         </p>
-        <div className="engagements" style={{ gridTemplateColumns: "1fr 1fr" }}>
+        <div className="engagements" style={{ gridTemplateColumns: "minmax(0, 720px)" }}>
           {cards.map(c => (
             <div className="eng" key={c.kind}>
               <span className="ekind">{c.kind}</span>
