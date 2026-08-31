@@ -481,7 +481,7 @@ function WaysToBegin() {
     {
       kind: "Sessions",
       sub: "Group work to see the system.",
-      body: "Your team can feel the drift but cannot name it, so the problem starts to look like the other site or the other function. We work with the people closest to the work and make the system visible. When the tension sits between sites or functions, we may work with each side separately before the shared picture is ready. Once the system is visible, the other side stops being the only explanation. The tension drops, the conversation changes, and people work better where they have influence. A Session changes how the team works, not how the programme is run. It can stand alone, open the way to Restoration, or run early to stop drift before it becomes structural.",
+      body: "Your team can feel the drift but cannot name it, so the problem starts to look like the other site or the other function. We work with the people closest to the work and make the system visible. When the tension sits between sites or functions, we may work with each side separately before the shared picture is ready. Once the system is visible, the other side stops being the only explanation. The tension drops, the conversation changes, and people work better where they have influence. A Session changes how the team works, not how the programme is run. Sessions run inside a Restoration, with the people closest to the work.",
       bullets: [
         "A team, a working group, or a few people carrying the same tension",
         "The people closest to the work, separately or together as needed"
@@ -508,8 +508,9 @@ function WaysToBegin() {
           <h2>Simpler ways to <em>start</em>.</h2>
         </div>
         <p className="prose" style={{ marginTop: -8, marginBottom: 40, fontStyle: "italic", fontSize: 26, color: "var(--accent)", maxWidth: "70ch" }}>
-          The full engagement above is the core work. Sessions and 1:1 are simpler ways to
-          start, for when the work needs a name but not the full structure yet.
+          The full engagement above is the core work. A 1:1 is the simpler way to start.
+          Sessions are part of the work itself: they are how a Restoration hands direction
+          to the teams.
         </p>
         <div className="engagements" style={{ gridTemplateColumns: "1fr 1fr" }}>
           {cards.map(c => (
