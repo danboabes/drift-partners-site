@@ -417,16 +417,16 @@ function Engagements() {
       kind: "Tier 01",
       title: "Diagnostic",
       sub: "Make visible. Identify what breaks alignment.",
-      duration: "A few weeks",
+      duration: "2 to 4 weeks from the first interview",
       body: "We make the programme visible. We name the mechanisms. We hand the work back. Sometimes this is the entire engagement.",
-      bullets: ["Senior, working from inside", "Both sides of the translation layer", "Written diagnosis the leadership recognises"],
+      bullets: ["Senior, working from inside", "Both sides of the translation layer", "Written diagnosis, and a session where we take you through it"],
       leaveWith: "You leave with: the mechanisms named, the evidence leadership can recognise, and a clear decision: stop here, restore direction internally, or bring us in further."
     },
     {
       kind: "Tier 02",
       title: "Restoration",
       sub: "Restore direction through key decisions.",
-      duration: "A few months",
+      duration: "Up to 4 months",
       body: "Diagnostic plus the work of restoring direction. Decisions made. Contradictions removed. Handed to the teams in sessions with the people who carry the work.",
       bullets: ["Key decisions with single owners", "Sessions with the executing teams", "Direction lives in the people, not the deck"],
       leaveWith: "You leave with: key decisions stop reopening. Contradictions removed. Ownership transferred to the executing teams."
@@ -435,7 +435,7 @@ function Engagements() {
       kind: "Tier 03",
       title: "Anchor Review",
       sub: "Hold direction over time.",
-      duration: "Quarterly · ongoing",
+      duration: "Every quarter after that",
       body: "A focused review every quarter. Are the decisions still holding? Has new drift appeared? We close the engagement the moment the answer to both is \"we are stable now.\"",
       bullets: ["Quarterly cadence, remote or on-site as needed.", "Re-checks only on the signals that mattered in the diagnostic."],
       leaveWith: "You leave with: quarterly evidence that direction is holding, or the early signal that something is moving again before it becomes a bigger problem."
