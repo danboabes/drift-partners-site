@@ -210,7 +210,7 @@ function BusinessCard() {
           <div style={{ fontFamily: "Source Serif 4, serif", fontStyle: "italic", fontSize: 14, color: "#7a2e1f" }}>Partner</div>
         </div>
         <div style={{ textAlign: "right", fontFamily: "JetBrains Mono, monospace", fontSize: 10, color: "#2a2520", lineHeight: 1.7 }}>
-          <div>amc@emic.pl</div>
+          <div>amc@drift.partners</div>
           <div>+48 663 057 223</div>
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 const { useState, useEffect, useRef } = React;
 
-// Lightweight wrapper around gtag — safe if GA fails to load (adblock, etc.)
+// Lightweight analytics wrapper. No-op unless an analytics global is present.
 function track(eventName, params) {
   try {
     if (typeof window !== "undefined" && typeof window.gtag === "function") {
@@ -620,12 +620,6 @@ function About() {
 
 // ---------- Contact / sign-off ----------
 function Contact() {
-  const [sent, setSent] = useState(false);
-  const submit = (e) => {
-    e.preventDefault();
-    track("form_submit", { form_id: "contact_short_note" });
-    setSent(true);
-  };
   return (
     <section className="band dark" id="contact">
       <div className="shell">
@@ -645,12 +639,9 @@ function Contact() {
               <a href="tel:+48663057223"
                 onClick={() => track("phone_click", { location: "contact_letter" })}
                 style={{ color: "inherit", textDecoration: "none", borderBottom: "1px solid currentColor", whiteSpace: "nowrap" }}>+48&nbsp;663&nbsp;057&nbsp;223</a>{" · "}
-              <a href="mailto:amc@emic.pl"
+              <a href="mailto:amc@drift.partners"
                 onClick={() => track("email_click", { location: "contact_letter" })}
-                style={{ color: "inherit", textDecoration: "none", borderBottom: "1px solid currentColor", whiteSpace: "nowrap" }}>amc@emic.pl</a>
-            </p>
-            <p style={{ marginTop: "1em" }}>
-              <strong>Or drop us a line. We will contact you.</strong>
+                style={{ color: "inherit", textDecoration: "none", borderBottom: "1px solid currentColor", whiteSpace: "nowrap" }}>amc@drift.partners</a>
             </p>
             <p style={{ marginTop: "1.4em" }}>
               <em>Anna, Joanna &amp; Dan</em>
@@ -659,9 +650,9 @@ function Contact() {
           <div>
             <div className="contact-card">
               <div className="label">Direct</div>
-              <a href="mailto:amc@emic.pl"
+              <a href="mailto:amc@drift.partners"
                 onClick={() => track("email_click", { location: "contact_card" })}
-                className="email">amc@emic.pl</a>
+                className="email">amc@drift.partners</a>
               <div className="meta">
                 <div className="row"><span className="k">Phone</span><span>+48 663 057 223</span></div>
                 <div className="row"><span className="k">Practice</span><span>emiclab.com</span></div>
@@ -672,20 +663,6 @@ function Contact() {
                 </span></div>
               </div>
 
-              {!sent ? (
-                <form className="note-form" onSubmit={submit}>
-                  <div className="label">A short note</div>
-                  <div className="field"><span>Name</span><input required placeholder="" /></div>
-                  <div className="field"><span>Email or phone</span><input required placeholder="" /></div>
-                  <div className="field"><span>Message (optional)</span><textarea rows={3} placeholder="Anything you want us to know."></textarea></div>
-                  <button className="submit" type="submit">Drop us a line &nbsp;→</button>
-                </form>
-              ) : (
-                <div className="note-form">
-                  <div className="label">Received</div>
-                  <p className="sent">Thank you. One of us will reply personally within two working days.</p>
-                </div>
-              )}
             </div>
           </div>
         </div>
@@ -704,7 +681,8 @@ function Foot() {
         <span>
           <a href="https://www.linkedin.com/in/anna-chodynicka" target="_blank" rel="noopener" className="li-link"
             onClick={() => track("outbound_click", { link_id: "linkedin_profile", location: "footer" })}><svg className="li-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
-          {" · "}amc@emic.pl · +48 663 057 223
+          {" · "}<a href="/privacy" className="foot-link">Privacy</a>
+          {" · "}amc@drift.partners · +48 663 057 223
         </span>
       </div>
     </footer>
