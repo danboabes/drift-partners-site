@@ -655,7 +655,6 @@ function Contact() {
                 className="email">amc@drift.partners</a>
               <div className="meta">
                 <div className="row"><span className="k">Phone</span><span>+48 663 057 223</span></div>
-                <div className="row"><span className="k">Practice</span><span>emiclab.com</span></div>
                 <div className="row"><span className="k">Based</span><span>Warsaw</span></div>
                 <div className="row"><span className="k">LinkedIn</span><span>
                   <a href="https://www.linkedin.com/in/anna-chodynicka" target="_blank" rel="noopener" className="li-link"
